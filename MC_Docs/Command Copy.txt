@@ -1,0 +1,17 @@
+/give @p kimetsunoyaiba:nichirinsword_tanjiro{Enchantments:[{id:"kimetsunoyaiba:crimson_red_blade",lvl:25},{id:"minecraft:sharpness",lvl:20},{id:"minecraft:unbreaking",lvl:10},{id:"minecraft:mending",lvl:1}]} 1
+
+/give @p kimetsunoyaiba:nichirinsword_zenitsu{Enchantments:[{id:"kimetsunoyaiba:crimson_red_blade",lvl:25},{id:"minecraft:sharpness",lvl:20},{id:"minecraft:unbreaking",lvl:10},{id:"minecraft:mending",lvl:1}]} 1
+
+/give @p mcdw:sword_dark_katana{Enchantments:[{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:sharpness",lvl:18},{id:"mcdw:radiance",lvl:3}],AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:15,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:5,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:diamond_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"CBC",Amount:18,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:20,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:1,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"CBC",Amount:17.5,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:127,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:10,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attack_damage",Amount:17.5,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:"generic.attackSpeed",Name:"generic.attack_speed",Amount:20,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+
+/give @p minecraft:diamond_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attack_damage",Amount:8,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:"generic.attackSpeed",Name:"generic.attack_speed",Amount:20,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+
+/give @p minecraft:diamond_boots{AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:5,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:feet},{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:0.13,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:feet},{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}

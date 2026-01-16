@@ -1,0 +1,203 @@
+📌 作用：给最近的玩家（@p）一把《鬼灭之刃模组》里的 炭治郎日轮刀。
+
+crimson_red_blade 25级（模组特效，红色刀刃强化）
+
+锋利 V → 20级（极高攻击加成）
+
+耐久 X → 10级（几乎不会坏）
+
+经验修补 I（捡经验修复）
+/give @p kimetsunoyaiba:nichirinsword_tanjiro{Enchantments:[{id:"kimetsunoyaiba:crimson_red_blade",lvl:25},{id:"minecraft:sharpness",lvl:20},{id:"minecraft:unbreaking",lvl:10},{id:"minecraft:mending",lvl:1}]} 1
+
+/give @p kimetsunoyaiba:nichirinsword_tanjiro{Enchantments:[{id:"kimetsunoyaiba:crimson_red_blade",lvl:10},{id:"minecraft:sharpness",lvl:10}],Unbreakable:1} 1
+
+
+📌 作用：给玩家 善逸日轮刀，附魔和炭治郎的那把相同。
+/give @p kimetsunoyaiba:nichirinsword_zenitsu{Enchantments:[{id:"kimetsunoyaiba:crimson_red_blade",lvl:25},{id:"minecraft:sharpness",lvl:20},{id:"minecraft:unbreaking",lvl:10},{id:"minecraft:mending",lvl:1}]} 1
+
+
+
+📌 作用：给玩家 黑暗武士刀（MC Dungeons Weapons 模组）。
+
+附魔：
+
+火焰附加 II（攻击点燃敌人）
+
+锋利 18（极高攻击）
+
+Radiance III（模组特效，攻击回血）
+
+属性修饰：
+
+攻击伤害 +15
+
+攻击速度 +5
+
+不可破坏
+/give @p mcdw:sword_dark_katana{Enchantments:[{id:"fire_aspect",lvl:2},{id:"sharpness",lvl:18},{id:"mcdw:radiance",lvl:3}],AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:15,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:5,Operation:0,UUIDLeast:1,UUIDMost:1, Slot:mainhand}],Unbreakable:1}
+
+/give @p mcdw:sword_dark_katana{Enchantments:[{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:sharpness",lvl:18},{id:"mcdw:radiance",lvl:3}],AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:15,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:5,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+
+
+📌 作用：给玩家 钻石剑，拥有极端属性：
+
+攻击伤害 +18（远超普通钻石剑 7）
+
+攻击速度 +20（比正常 1.6 高很多，相当于快速连击）
+
+移动速度 +1（翻倍跑速）
+
+击退抗性 +99（完全不会被击退）
+
+不可破坏
+/give @p minecraft:diamond_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"CBC",Amount:18,Operation:0,UUIDLeast:1L,UUIDMost:1L, Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:20,Operation:0,UUIDLeast:1L,UUIDMost:1L, Slot:mainhand},{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:1,Operation:0,UUIDLeast:1L,UUIDMost:1, Slot:mainhand},{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1L,UUIDMost:1L, Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:diamond_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"CBC",Amount:18,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:20,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:1,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+
+
+📌 作用：给玩家 下界合金剑：
+
+攻击伤害 +17.5
+
+攻击速度 +127（几乎无限速连击，秒点杀）
+
+不可破坏
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"CBC",Amount:17.5,Operation:0,UUIDLeast:1L,UUIDMost:1L, Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:127,Operation:0,UUIDLeast:1L,UUIDMost:1L, Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"CBC",Amount:17.5,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand},{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:127,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+
+
+
+📌 作用：给玩家 下界合金剑，特点是：
+
+攻击速度 +10（比原版 1.6 高非常多，快速挥舞）
+
+不可破坏
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackSpeed",Amount:10}],Unbreakable:1}
+
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:10,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+
+
+
+📌 作用：给玩家 下界合金剑：
+
+攻击伤害 +17.5
+
+攻击速度 +20（快刀流）
+
+使用 UUID 保证和其他装备不会冲突
+/give @p netherite_sword{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:17.5,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:20,Operation:0, Slot:mainhand ,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+
+/give @p minecraft:netherite_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attack_damage",Amount:17.5,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:"generic.attackSpeed",Name:"generic.attack_speed",Amount:20,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+
+
+
+
+📌 作用：给玩家 钻石剑：
+
+攻击伤害 +8（正常钻石剑数值）
+
+攻击速度 +20（疯狂快刀）
+
+用 UUID 避免冲突
+/give @p diamond_sword{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:8,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:20,Operation:0, Slot:mainhand ,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+
+/give @p minecraft:diamond_sword{AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attack_damage",Amount:8,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:"generic.attackSpeed",Name:"generic.attack_speed",Amount:20,Operation:0,Slot:mainhand,UUID:[I;1498693494,1027158888,1898994005,860320107]}]}
+
+
+
+
+📌 作用：给玩家 钻石靴子：
+
+攻击速度 +5（虽然是鞋子，但会影响整体攻速）
+
+移动速度 +0.13（跑得更快）
+
+击退抗性 +99（几乎不会被击退）
+
+不可破坏
+/give @p minecraft:diamond_boots{AttributeModifiers:[ {AttributeName:"generic.attackSpeed",Name:"CBC",Amount:5,Operation:0,UUIDLeast:1L,UUIDMost:1L,Slot:feeet},{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:0.13,Operation:0,UUIDLeast:1L,UUIDMost:1, Slot:feet},{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1L,UUIDMost:1L, Slot:mainhand}],Unbreakable:1}
+
+/give @p minecraft:diamond_boots{AttributeModifiers:[{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:5,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:feet},{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:0.13,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:feet},{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1,UUIDMost:1,Slot:mainhand}],Unbreakable:1}
+
+
+
+
+📌
+装备韧性值指令：/give @p minecraft:iron_sword{AttributeModifiers:[
+武器伤害：
+{AttributeName:"generic.attackDamage",Name:"CBC",Amount:999,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+武器攻速：
+{AttributeName:"generic.attackSpeed",Name:"CBC",Amount:999,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+附加生命值：
+{AttributeName:"generic.maxHealth",Name:"CBC",Amount:9,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+移动速度：
+{AttributeName:"generic.movementSpeed",Name:"CBC",Amount:6,Operation:0,UUIDLeast:1L,UUIDMost:1}
+击退抗性：
+{AttributeName:"generic.knockbackResistance",Name:"CBC",Amount:99,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+护甲值：
+{AttributeName:"generic.armor",Name:"CBC",Amount:999,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+盔甲韧性:
+{AttributeName:"generic.armorToughness",Name:"CBC",Amount:2,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+生物跟随距离：
+{AttributeName:"generic.followRange",Name:"CBC",Amount:3,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+幸运：
+{AttributeName:"generic.luck",Name:"CBC",Amount:4,Operation:0,UUIDLeast:1L,UUIDMost:1L}
+
+分区指令UUID末尾处加:,Slot:mainhand/,Slot:offhand/,Slot:head/,Slot:legs，chest/,Slot:feet
+
+
+末尾：}]}
+
+隐藏属性：
+HideFlags:2}
+无法破坏：
+],Unbreakable:1}
+颜色:
+display:{color:0}}
+
+封魔指令：/give @p minecraft:diamond_sword{Enchantments:[{id:"sharpness",lvl:3},
+{id:"ID",lvl:2}]} 1
+
+（附魔名称）
+保护        protection
+火焰保护        fire_protection
+轻盈        feather_falling
+爆炸爆炸保护        blast_protection
+投射物保护        projectile_protection
+尖刺        thorns
+水中呼吸        respiration
+深海漫游        depth_strider
+亲水性        aqua_affinity
+锋利        sharpness
+不死攻克星        smite
+节肢攻克星        bane_of_arthropods
+击退        knockback
+燃烧        fire_aspect
+掠夺        looting
+效率        efficiency
+丝绸之触        silk_touch
+耐久        unbreaking
+幸运        fortune
+力量        power
+冲击        punch
+火焰        flame
+无限        infinity
+海洋的祝福        luck_of_the_sea
+鱼饼干        lure
+冰霜行的        frost_walker
+修补        mending
+绑定诅咒        binding_curse
+消失诅咒        vanishing_curse
+鱼叉        impaling
+波涛        riptide
+忠诚        loyalty
+叫雷        channeling
+分裂箭箭        multishot
+贯穿        piercing
+快速上弦        quick_charge
+横扫的刀        sweeping
